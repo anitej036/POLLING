@@ -1,0 +1,13 @@
+{% extends 'polls/base.html' %}
+{% block content %}
+
+<div class="card text-center">
+  <div class="card-body">
+    <h1>Welcome To Polling</h1>
+    <p>This IS THE BEST DJANGO POOLING APP</p>
+    <a class="btn btn-dark" href="{% url 'polls:index' %}">
+        View Available Polls</a
+      >
+  </div>
+  </div>
+{% endblock %}
